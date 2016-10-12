@@ -1,5 +1,8 @@
 # DynamicForms
 
+Source:
+http://blog.plataformatec.com.br/2016/09/dynamic-forms-with-phoenix/?utm_campaign=elixir_radar_69&utm_medium=email&utm_source=RD+Station
+
 To start your Phoenix app:
 
   * Install dependencies with `mix deps.get`
@@ -18,3 +21,4 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
   * Docs: https://hexdocs.pm/phoenix
   * Mailing list: http://groups.google.com/group/phoenix-talk
   * Source: https://github.com/phoenixframework/phoenix
+
