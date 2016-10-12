@@ -51,6 +51,7 @@ defmodule DynamicForms.Web do
 
       import DynamicForms.Router.Helpers
       import DynamicForms.ErrorHelpers
+      import DynamicForms.InputHelpers
       import DynamicForms.Gettext
     end
   end

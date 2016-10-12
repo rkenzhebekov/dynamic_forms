@@ -18,5 +18,7 @@ defmodule DynamicForms.User do
     struct
     |> cast(params, [:name, :address, :date_of_birth, :number_of_children, :notifications_enabled])
     |> validate_required([:name, :address, :date_of_birth, :number_of_children, :notifications_enabled])
+    |> validate_length(:address, min: 3)
+    |> validate_number(:number_of_children, greater_than_or_equal_to: 0)
   end
 end
